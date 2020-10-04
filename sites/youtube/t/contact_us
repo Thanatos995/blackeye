@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+  <html lang="pt-PT" dir="ltr" >
+
+<head>
+<style name="www-roboto" >@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf)format('truetype');}</style><script name="www-roboto" >if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "P");document.fonts.load("500 10pt Roboto", "P");}</script>  <script >var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: (window.performance && window.performance.timing &&window.performance.now && window.performance.timing.navigationStart) ?function() {return window.performance.timing.navigationStart +window.performance.now();} :function() {return (new Date()).getTime();},tick: function(l, t, n) {var ticks = ytcsi.gt(n).tick;var v = t || ytcsi.now();if (ticks[l]) {ticks['_' + l] = (ticks['_' + l] || [ticks[l]]);ticks['_' + l].push(v);}ticks[l] = v;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = (!d.visibilityState && d.webkitVisibilityState)? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}function isGecko() {if (!w.navigator || !w.navigator.userAgent) {return false;}var ua = w.navigator.userAgent;return ua.indexOf('Gecko') > 0 &&ua.toLowerCase().indexOf('webkit') < 0 &&ua.indexOf('Edge') < 0 &&ua.indexOf('Trident') < 0 &&ua.indexOf('MSIE') < 0;}if (isGecko()) {var isHidden = (d.visibilityState || d.webkitVisibilityState) == 'hidden';if (isHidden) {ytcsi.tick('vc');}}var slt = function(el, t) {setTimeout(function() {var n = ytcsi.now();el.loadTime = n;if (el.slt) {el.slt();}}, t);};w.__ytRIL = function(el) {if (!el.getAttribute('data-thumb')) {if (w.requestAnimationFrame) {w.requestAnimationFrame(function() {slt(el, 0);});} else {slt(el, 16);}}};})(window, document);</script>
+  <script >var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script>
+  
+<title>YouTube</title>  <meta name="description" content="Desfrute dos vídeos e da música que adora, carregue conteúdo original e partilhe-o com amigos, familiares e o mundo no YouTube.">
+  <meta name="keywords" content="vídeo, partilha, telefone com câmara, telefone com vídeo, gratuito, carregar">
+<link rel="manifest" href="/s/notifications/manifest/manifest.json"><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=pt_PT" title="Pesquisa de vídeos do YouTube"><link rel="icon" href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" type="image/x-icon"><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" type="image/x-icon">   <link rel="icon" href="/yts/img/favicon_32-vflOogEID.png" sizes="32x32"><link rel="icon" href="/yts/img/favicon_48-vflVjB_Qk.png" sizes="48x48"><link rel="icon" href="/yts/img/favicon_96-vflW9Ec0w.png" sizes="96x96"><link rel="icon" href="/yts/img/favicon_144-vfliLAfaB.png" sizes="144x144"><meta name="theme-color" content="#ff0000">  <link rel="stylesheet" href="/s/player/4c375770/www-player.css" name="player/www-player">
+  <link rel="stylesheet" href="/yts/cssbin/www-core-vflMb6X_A.css" name="www-core">
+  <link rel="stylesheet" href="/yts/cssbin/www-pageframe-vfl2-hqXw.css" name="www-pageframe">
+  <link rel="stylesheet" href="/yts/cssbin/www-the-rest-vflC_SdHT.css" name="www-the-rest">
+  <link rel="stylesheet" href="/yts/cssbin/www-refresh-static-vflIbdn0M.css" name="www-refresh-static">
+<style>.exp-invert-logo #yt-masthead #logo-container .logo,.exp-invert-logo #footer-logo .footer-logo-icon,.exp-invert-logo #yts-article #header:before {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small-vflHpzGZm.png);width: 100px;height: 30px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo,.exp-invert-logo.inverted-hdpi #footer-logo .footer-logo-icon,.exp-invert-logo.inverted-hdpi #yts-article #header:before {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small_2x-vfl4_cFqn.png);background-size: 100px 30px;width: 100px;height: 30px;}.exp-invert-logo #yts-article #header:before {top: 8px;}.exp-invert-logo  .sb-notif-on .yt-uix-button-content {background-color: #f00;}</style><style>.exp-invert-logo #header:before, .exp-invert-logo .ypc-join-family-header .logo, .exp-invert-logo #footer-logo .footer-logo-icon, .exp-invert-logo #yt-masthead #logo-container .logo, .exp-invert-logo #masthead #logo-container, .exp-invert-logo .admin-masthead-logo a, .exp-invert-logo #yt-sidebar-styleguide-logo #logo { background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small_2x-vfl4_cFqn.png); background-size: 100px 30px; } .exp-invert-logo #yt-masthead #logo-container .logo-red { background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red_2x-vflOSHA_n.png); background-size: 132px 30px; } @media only screen and (min-width: 0px) and (max-width: 498px), only screen and (min-width: 499px) and (max-width: 704px) { .exp-invert-logo.exp-responsive #yt-masthead #logo-container { background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png); background-size: 40px 28px; } } .guide-sort-container {display: none}</style></head>
+
+
+
+
+  <body id="" class="date-20201002 pt_PT ltr  exp-invert-logo exp-kevlar-settings exp-mouseover-img exp-responsive exp-search-big-thumbs   site-center-aligned site-as-giant-card  " dir="ltr">
+
+  <div id="body-container">
+    <form name="logoutForm" method="POST" action="/logout">
+      <input type="hidden" name="action_logout" value="1">
+    </form>
+
+    
+
+    <!-- begin page -->
+          <div id="yt-masthead-container" class="clearfix yt-base-gutter">  <button id="a11y-skip-nav" class="skip-nav" data-target-id="main" tabindex="3">
+Ignorar navegação
+  </button>
+<div id="yt-masthead"><div class="yt-masthead-logo-container ">    <a id="logo-container" href="/" title="Página inicial do YouTube" class=" spf-link  masthead-logo-renderer yt-uix-sessionlink" data-sessionlink=""><span class="logo masthead-logo-renderer-logo yt-sprite" title="Página inicial do YouTube"></span><span class="content-region">PT</span></a>
+</div><div id="yt-masthead-signin">    <a  href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-opacity yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" data-sessionlink="ei=Vxx5X_HJI4XsxgKS8I3IBA&amp;feature=mhsb" id="upload-btn" title="Carregar"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-material-upload yt-sprite"></span></span></a>
+<div class="signin-container "><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dsign_in_button%26hl%3Dpt-PT%26next%3D%252Ft%252Fcontact_us&amp;hl=pt-PT&amp;passive=true&amp;service=youtube&amp;uilel=3" role="link"><span class="yt-uix-button-content">Iniciar sessão</span></button></div></div><div id="yt-masthead-content"><form id="masthead-search" class="  search-form consolidated-form  vve-check" action="/results" onsubmit="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;" data-clicktracking="" data-visibility-tracking=""><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;" dir="ltr" id="search-btn" tabindex="2"><span class="yt-uix-button-content">Pesquisar</span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><input id="masthead-search-term" autocomplete="off"  onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" placeholder="Pesquisa" title="Pesquisar" aria-label="Pesquisar"></div></form></div></div></div>
+  
+      <div id="masthead-subnav" class="yt-nav yt-nav-dark">
+    <ul>
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/about/pt-PT/">
+        Acerca de
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/press/pt-PT/">
+        Imprensa e blogues
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/copyright/pt-PT/">
+        Direitos de autor
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/policyandsafety/pt-PT/">
+        Segurança
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/creators/">
+        Criadores &amp; parceiros
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/advertise/">
+        Publicidade
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/dev/pt-PT/">
+        Programadores
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//support.google.com/youtube/?hl=pt-PT">
+        Ajuda
+    </a>
+  </li>
+
+    </ul>
+  </div>
+
+
+
+  <div id="alerts" class="content-alignment about-pages">
+    
+  </div>
+
+  <div id="page-container">
+    <div id="page" class="page-default about-pages">
+        <div id="content" class="">
+          <div class="ytg-base">
+  <div class="ytg-wide">
+    <div id="yts-nav" class="ytg-1col">
+      <ol>
+  <li class="top-level">
+    <a href="//www.youtube.com/yt/about/pt-PT/" >
+Acerca do YouTube
+    </a>
+  </li>
+  <ol class="indented">
+    <li class="sub-level">
+      <a href="//www.youtube.com/yt/about/pt-PT/getting-started.html" >
+Introdução
+      </a>
+    </li>
+    <li class="sub-level">
+      <a href="/t/community_guidelines" >
+Regras da comunidade
+      </a>
+    </li>
+    <li class="sub-level">
+      <a href="/t/contact_us"  class="item-highlight">
+Contacte-nos
+      </a>
+    </li>
+    <li class="sub-level">
+      <a href="//www.youtube.com/yt/jobs/" >
+Emprego
+      </a>
+    </li>
+    <li class="sub-level">
+      <li class="sub-level">
+        <a href="http://www.google-store.com/">
+Artigos do YouTube
+        </a>
+      </li>
+    </li>
+  </ol>
+</ol>
+
+    </div>
+    <div id="yts-article" class="ytg-box">
+      <h1 id="header">
+Contacte-nos
+      </h1>
+      <div id="article-container" class="ytg-box">
+
+
+        <p>Se precisar de ajuda, visite o <a href="//support.google.com/youtube/?hl=pt-PT" target="_blank">Centro de Ajuda</a>, onde encontrará resposta a muitas questões comuns sobre como criar uma conta, ver e carregar vídeos e fazer a manutenção do seu canal.</p>
+        <p>Se não conseguir encontrar o que procura no Centro de Ajuda, sugerimos que visite o <a href="//www.google.com/support/forum/p/youtube?hl=en" target="_blank">Fórum de Ajuda da comunidade</a>. Deparou-se com um erro? Consulte a página <a href="//support.google.com/youtube/bin/static.py?page=known_issues.cs&amp;hl=pt-PT">Problemas actuais do site</a> para ver uma lista de problemas conhecidos que estamos a resolver.</p>
+
+        <h1 class="heading-spacer">Relações com os Meios de Comunicação</h1>
+        <hr class="with-separator">
+
+        <div class="ytg-2col">
+<h2>Sala de imprensa</h2> <p><a href="/t/press">Esta área</a> contém informações de contacto dos meios de comunicação, comunicados de imprensa, filmagens b-roll, perguntas frequentes e a nossa linha cronológica interativa.</p>
+        </div>
+
+        <div class="ytg-2col ytg-last">
+<h2>Programa de parceiros</h2> <p>Se está interessado em aderir ao Programa de parceiros do YouTube, visite a nossa <a href="//www.youtube.com/yt/creators/get-started.html">página de informações</a> para saber mais sobre o assunto.</p>
+        </div>
+        <div class="ytg-2col">
+<h2>Publicidade</h2> <p>Quer seja uma empresa de marketing de topo, ou apenas um revendedor local, pode transmitir a sua campanha publicitária no YouTube e, assim, entrar na maior comunidade de vídeos on-line do mundo.<a href="/t/advertising_overview"> Aprenda os passos básicos para anunciar no YouTube</a>.</p>
+        </div>
+        <h1 class="clearer heading-spacer">Segurança</h1>
+        <hr class="with-separator">
+        <div class="ytg-2col">
+<h2>Problemas de Abuso</h2><p> Para problemas de abusos no Website, contacte-nos através do <a href="//support.google.com/youtube/bin/topic.py?topic=13044&amp;hl=pt-PT" target="_blank">Centro de Políticas e Abusos</a>.</p>
+        </div>
+        <div class="ytg-2col ytg-last">
+<h2>Problemas de Segurança do Website</h2> <p>Se pretender comunicar um problema de segurança do Website do YouTube, <a href="//support.google.com/youtube/answer/77402?hl=pt-PT" target="_blank">visite-nos aqui</a>.</p>
+        </div>
+        <h1 class="clearer">Área jurídica</h1>
+        <hr class="with-separator">
+        <div class="ytg-2col">
+<h2>Problemas de Direitos de Autor</h2><p>Se é o proprietário dos Direitos de Autor deste vídeo e acha que ele foi carregado sem a sua autorização, <a href="//www.youtube.com/yt/copyright/pt-PT/copyright-complaint.html" target="_blank">siga estas orientações</a> para enviar uma notificação de violação de direitos de autor intelectual.</p>
+        </div>
+        <div class="ytg-2col ytg-last">
+<h2>Programa ID do conteúdo:</h2><p> Se estiver interessado em fazer parte do nosso programa ID do conteúdo, visite a página <a href="/t/contentid">ID do conteúdo</a>.</p>
+        </div>
+        <br class="clearer">
+        <div class="ytg-2col">
+<h2>Conteúdo Impróprio</h2> <p>Para denunciar um vídeo impróprio no YouTube, clique no link &quot;Denunciar&quot;, por baixo do vídeo. Para mais informações sobre a nossa política, <a href="/t/terms" target="_blank">leia os Termos de Utilização</a>.</p>
+        </div>
+        <h1 class="clearer heading-spacer">Dados de contacto adicionais</h1>
+        <hr class="with-separator">
+        <div class="ytg-2col">
+<h2>Programadores</h2> <p>Se é programador ou está interessado nas nossas APIs, visite a <a href="/dev">Área do programador</a>.</p>
+        </div>
+        <div class="ytg-2col ytg-last">
+<h2>Enviar conteúdo adicional à Google:</h2> <p><a href="http://www.google.com/submit_content.html" target="_blank">Conheça todas as oportunidades</a> para distribuir o seu conteúdo gratuitamente no Google, incluindo miniaplicações, pesquisa de produtos, centro de empresas locais e livros.</p>
+        </div>
+          <!-- TBE: pt-PT/274806dbfffec6dbd5353fd47efef6349717f5fa -->
+          <h2 class="clearer heading-spacer">O nosso endereço</h2>
+          <div class="impressum-address" lang="pt-PT">
+  <p>Pode contactar o YouTube através do endereço abaixo.</p>
+  <div class="vcard">
+   <span class="fn">Google LLC, D/B/A YouTube</span><br />
+   <div class="adr">
+     <span class="street-address">901 Cherry Ave.</span><br />
+     <span class="locality">San Bruno</span>, <span class="region">CA</span> <span class="postal-code">94066</span><br />
+     <span class="country-name">USA</span><br />
+   </div>
+   <div class="tel"><span class="type">Fax</span>: <span class="value">+1 650-253-0001</span></div>
+ </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+    </div>
+  </div>
+
+        <div id="shared-addto-watch-later-login" class="hid">
+      <a class="sign-in-link" href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3Dplaylist%26hl%3Dpt-PT%26next%3D%252Ft%252Fcontact_us&amp;hl=pt-PT&amp;passive=true&amp;service=youtube&amp;uilel=3">Inicie sessão</a> para adicionar o vídeo a Ver mais tarde
+
+    </div>
+
+
+  
+
+    <!-- end page -->
+  </div>
+
+    <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" id="footer-logo-link" title="Página inicial do YouTube"><span class="footer-logo-icon yt-sprite"></span></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-picker-key="language" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Idioma:
+  </span>
+  Português
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-picker-key="country" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Localização:
+  </span>
+  Portugal
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-picker-key="safetymode" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Modo restrito:
+  </span>
+Desativado
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+  </ul>
+<a  href="/feed/history" class="yt-uix-button  footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=Vxx5X_HJI4XsxgKS8I3IBA"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">Histórico</span></a>    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" data-ghelp-anchor="google-help" data-ghelp-tracking-param="" id="google-help" data-feedback-product-id="59" data-load-chat-support="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Ajuda
+</span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Ícone A carregar"></span>
+
+    <span class="yt-spinner-message">
+A carregar...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Ícone A carregar"></span>
+
+    <span class="yt-spinner-message">
+A carregar...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span class="yt-spinner-img  yt-sprite" title="Ícone A carregar"></span>
+
+    <span class="yt-spinner-message">
+A carregar...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="https://www.youtube.com/about/">Acerca de</a></li>
+  <li><a href="https://www.youtube.com/about/press/">Imprensa</a></li>
+  <li><a href="https://www.youtube.com/about/copyright/">Direitos de autor</a></li>
+  <li><a href="https://www.youtube.com/creators/">Criadores</a></li>
+  <li><a href="https://www.youtube.com/ads/">Publicidade</a></li>
+  <li><a href="https://developers.google.com/youtube">Programadores</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Termos</a></li>
+  <li><a href="https://www.google.com.pt/intl/pt-PT/policies/privacy/">Privacidade</a></li>
+  <li><a href="https://www.youtube.com/about/policies/">
+Política e Segurança
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=pt-PT" onclick="return yt.www.feedback.start(59);" class="reportbug">Enviar feedback</a></li>
+  <li>
+    <a href="/testtube">Testar novas funcionalidades</a>
+  </li>
+  <li></li>
+</ul></div></div></div>
+
+
+    <script >var yterr = yterr || true;</script>  <script src="/yts/jsbin/www-core-vflQ8vxER/www-core.js" type="text/javascript" name="www-core/www-core" ></script>
+  <script >var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['request-headers'] = {'X-YouTube-Ad-Signals': {toString: function() {return (window['yt'] && yt['ads_'] && yt.ads_['signals_'] &&yt.ads_.signals_['getAdSignalsString']) ?yt.ads_.signals_.getAdSignalsString() :'';}},'X-YouTube-Identity-Token': null};ytspf.config['experimental-request-headers'] = ytspf.config['request-headers'];ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;</script>
+  <script src="/yts/jsbin/spf-vflpBYB4V/spf.js" type="text/javascript" name="spf/spf" ></script>
+<script >  yt.setConfig({
+      'XSRF_TOKEN': "QUFFLUhqbGVMRFJnTm1KME9xZXEzQkNuZGdkNTl3QVhkd3xBQ3Jtc0trMlo3bDZZdUtsR1UxX1BRcWotUTBVNFJBRjFaVDFiVzdWRl9WcWtyTTZMVVE1Z2NMaWwyX3pZclVxendUa3FLRnNiRS1kRU51MzZ3WlpxZG5Ud0RleENidkpfb3hSeEl6U0hQQXRVTU9kQng2RnpnOVU5MGhTN0FCS2cwSkRBRk9JenpmMzNGajRxdG5BM0hBeEJpcUd2elM3ZFE=",
+      'XSRF_FIELD_NAME': "session_token",
+
+      'XSRF_REDIRECT_TOKEN': "QUFFLUhqbGRKcG42bENwbXg1dU50TElodV9Yb0hUcG5nUXxBQ3Jtc0trbkoxTkNzV0UwX0stZ3RYQjJxZGJOYV94cVdFTk1lTnhNcXVYcTJ1ZjN4WTROc0d0RXFET3Z1cEh5NDNXVlhrek50Q2cxVUdZYXBfX1NwUDUwQjhhMWZOWTljckZncTVpVEFTTDNGRlZYTmtMT3NVWQ=="  });
+yt.setConfig({'EVENT_ID': "Vxx5X_HJI4XsxgKS8I3IBA",'PAGE_NAME': "static",'PAGEFRAME_JS': "\/yts\/jsbin\/www-pageframe-vfl30ftdp\/www-pageframe.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/yts\/cssbin\/www-pageframedelayloaded-vfl0WpMvu.css",'LOGGED_IN': false,'SESSION_INDEX': null,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.lqqPe8Y-aUs.O\/d=1\/ct=zgms\/rs=AHpOoo_7ZBgzLryveB2qtYoSqeBQ4P-TYA\/m=__features__",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'GAPI_LOCALE': "pt_PT",'ONE_PICK_URL': "",'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return (n == 1) ? 'one' : 'other'; },'PAGE_CL': 334937463,'PAGE_BUILD_TIMESTAMP': "Thu Oct  1 18:12:22 2020 (1601601142)",'VARIANTS_CHECKSUM': "9532d00692dc9eae2cd7f8cf3de3eafc",'ANIMATED_THUMBS_PING_ONLY': true,'FEEDBACK_BUCKET_ID': "Other",'FEEDBACK_LOCALE_LANGUAGE': "pt-PT",'FEEDBACK_LOCALE_EXTRAS': {"accept_language":null,"experiments":"23700266,23701297,23701882,23709359,23709532,23710313,23710863,23718617,23722367,23725678,23736982,23744176,23746939,23754764,23755417,23755966,23762106,23767295,23785483,23789385,23790586,23790726,23793228,23794214,23794339,23797973,23802891,23804281,23810148,23811985,23816681,23821391,23832002,23834232,23836115,23837886,23839597,23841121,23841299,23841635,23842638,23853114,23854276,23854352,23854399,23854999,23856950,23857949,23858564,23859026,23859094,23860381,23861263,23861666,23862025,23862065,23862294,23862346,23862582,23863593,23864035,23864523,23865206,23865635,23868136,23868319,23872595,23874051,23874254,23874780,23874981,23878504,23879019,23879248,23880043,23880323,23881484,23882125,23882502,23882867,23884386,23884389,23884593,23884697,23884998,23885279,23885574,23885639,23885661,23886777,23887808,23889698,23890275,23890527,23890891,23890959,23890990,23892055,23894009,23894293,23894826,23895139,23895498,23895618,23895671,23896666,23896704,23897257,23897265,23897295,23897503,23897655,23897872,23897944,23897946,23897948,23897961,23898941,23899865,23900376,23900854,23901986,23902008,23904038,23905281,23906403,23906405,23906407,23906815,23907436,23907445,23908765,23908862,23909272,23909274,23910680,23910775,23911055,23911169,23911301,23911401,23912894,23914783,23915032,23915654,23915894,23915932,23915985,23915993,23916052,23916148,23916896,23917721,23917911,23917919,23918597,23919025,23919033,23919306,23919917,23920909,23921644,23921982,23922903,23923353,23923602,23923964,23925017,23925265,23925759,23925932,23926549,23927089,23927096,23927190,23927284,23928506,23928508,23928679,23928987,23928998,23929219,23930220,23930348,23930481,23930668,23930915,23931061,23931431,23931593,23931923,23932187,23932706,23933139,23933563,23934344,23934380,23934587,23934716,23934878,23934970,23935261,23935348,23936150,23936390,23937655,23938134,23938740,23938773,23939002,23939014,23939084,23939360,23939451,23939525,23939671,23939927,23940173,23940184,23940398,23940502,23940509,23940773,23941087,23941167,23941298,23941610,23942338,23942422,23942426,23942434,23942521,23942832,23942864,23943183,23943272,23943373,23943378,23944164,23944251,23944253,23944540,23944618,23944779,23945254,23945256,23945322,23945358,23945360,23945380,23945698,23945791,23945839,23945956,23946231,23946317,23946334,23946388,23946421,23946437,23946981,23947185,23947318,23947323,23947324,23947365,23947391,23947394,23947684,23947698,23947767,23947813,23947903,23948021,23948087,23948227,23948792,23948841,23949008,23949421,23949440,23949503,23949529,23949719,23950023,23950344,23950640,23950647,23950782,23950888,23951092,23951159,23951388,23952298,23952419,23953043,23953086,23953317,23953521,23953530,23953583,23953648,23953873,23953997,23954053,23954331,23954636,23954641,23955025,23955099,23955178,24500555,24631523,24631608,24650115,39320593,39320799,39320811,9407156,9449243,9459799,9473374,9473383,9473396,9479456,9487037","logged_in":false}});  yt.setConfig({
+    'GUIDED_HELP_LOCALE': "pt_PT",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+  yt.setConfig({
+    'YPC_LOADER_JS': "\/yts\/jsbin\/www-ypc-vflbGzYcS\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/yts\/cssbin\/www-ypc-vflVd_jtI.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dpt-PT%26next%3D%252F\u0026hl=pt-PT\u0026passive=true\u0026service=youtube\u0026uilel=3",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?action_handle_signin=true\u0026feature=purchases\u0026next=%2F\u0026skip_identity_prompt=True",
+    'YPC_GB_LANGUAGE': "pt_PT",
+    'YPC_MB_URL': "https:\/\/payments.youtube.com\/payments\/v4\/js\/integrator.js?ss=md",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax",
+    'YTR_FAMILY_CREATION_URL': "https:\/\/families.google.com\/webcreation?usegapi=1",
+    'YTO_GTM_DATA': {'event': 'purchased', 'purchaseStatus': 'success'},
+    'YTO_GTM_1_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '1'},
+    'YTO_GTM_2_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '2'}
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+</script>
+  <script >if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>  
+    <script >
+    ytcsi.info('st', 63);ytcfg.set({"TIMING_INFO":{"yt_li":0,"cver":"1.20200825.02.01","c":"WEB","yt_ref":"","yt_lt":"cold"},"CSI_SERVICE_NAME":"youtube"});;ytcfg.set({"TIMING_ACTION":"","CSI_VIEWPORT":true});;
+
+      yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+
+
+    yt.setConfig({'SBOX_JS_URL': "\/yts\/jsbin\/www-searchbox-vflxMil1W\/www-searchbox.js",'SBOX_SETTINGS': {"HAS_ON_SCREEN_KEYBOARD":true,"REQUEST_LANGUAGE":"pt-PT","REQUEST_DOMAIN":"pt"},'SBOX_LABELS': {"SUGGESTION_DISMISSED_LABEL":"Sugestão removida","SUGGESTION_DISMISS_LABEL":"Remover"}});
+
+
+
+
+    yt.setMsg({
+      'ADDTO_WATCH_LATER': "Watch later",
+      'ADDTO_WATCH_LATER_ADDED': "Adicionado",
+      'ADDTO_WATCH_LATER_ERROR': "Erro",
+      'ERROR_OCCURRED': "Lamentamos, mas ocorreu um erro."
+    });
+
+      yt.setConfig('GOOGLE_HELP_CONTEXT', "default");
+
+  </script>
+
+  
+
+  <script >if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+
+  
+
+</body>
+</html>
+

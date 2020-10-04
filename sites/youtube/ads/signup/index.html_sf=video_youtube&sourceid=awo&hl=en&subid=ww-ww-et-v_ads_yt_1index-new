@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+  <head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Signup | YouTube Ads</title>
+    <link href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_48x48.png" rel="icon" sizes="48x48">
+    <link href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_72x72.png" rel="icon" sizes="72x72">
+    <link href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_96x96.png" rel="icon" sizes="96x96">
+    <link href="https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png" rel="icon" sizes="144x144">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&amp;lang=en">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=YouTube+Sans:300,500,700">
+    <link rel="stylesheet" href="/ads/signup/css/index.min.css?cache=fdf4644">
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NBGKMS');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-28403453-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-28403453-1');
+    </script>
+  </head>
+  <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBGKMS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="main js-main__content">
+<section class="content main__section">
+  <div class="content__branding">
+    <img class="content__yt-icon"
+        src="https://www.gstatic.com/youtube/img/branding/youtubeicon/svg/youtube_main_icon.svg"
+        border="0"
+        alt="YouTube">
+    <span class="content__branding-spacer"></span>
+    <img class="content__adwords-logo"
+      src="/ads/signup/images/ads-logo.svg?cache=a228018"
+ border="0" alt="Google Ads">
+  </div>
+  <h1 class="content__headline">You&#39;ll create your video ad with Google Ads</h1>
+  <div class="content__paragraphs">
+      <p class="content__paragraph">
+        In a few easy steps your video ad will be up and running. Although your ad will appear on YouTube, you&#39;ll manage your campaign using Google Ads, an advertising platform used by businesses running ads on Google and its advertising network – which includes YouTube.
+      </p>
+      <p class="content__paragraph">
+        You&#39;ll now be redirected to sign in to or create a Google Ads account.
+      </p>
+  </div>
+
+  <div class="content__button-wrapper">
+    <a class="content__button-link yt-js-button"
+        href="https://ads.google.com/signup">
+      <button class="lb-button mdc-button mdc-button--unelevated content__button" data-lb-auto-init="MDCRipple">
+        Get started
+      </button>
+    </a>
+  </div>
+</section>
+<section class="lb-accordion lb-js-accordion accordion main__section " data-lb-auto-init="LBAccordion" data-lb-accordion-options='{"defaultOpen":0}'>
+  <h2 class="accordion__headline">
+    How you&#39;ll set up your ad
+  </h2>
+  <ul class="lb-accordion__drawers lb-js-accordion-drawers">
+      <li class="lb-accordion__drawers-drawer lb-js-accordion-drawer accordion__drawer">
+        <div class="lb-accordion__drawer-content accordion__drawer-content">
+          <div class="lb-accordion__drawer-head lb-js-accordion-drawer-head accordion__drawer-head"
+              role="button"
+              tabindex="0">
+            <h3 class="accordion__drawer-label">
+              1. Select your video from YouTube
+            </h3>
+            <span class="lb-accordion__drawer-icon"></span>
+          </div>
+          <div class="lb-accordion__drawer-body lb-js-accordion-drawer-body">
+              <p class="accordion__paragraph">
+                If the video you want to use for your ad isn’t already on YouTube, <a href="http://www.youtube.com/upload" target="_blank">upload it now</a>. Don’t have a video? <a href="https://www.youtube.com/ads/making-a-video-ad/" target="_blank">Get help here</a>.
+              </p>
+          </div>
+        </div>
+      </li>
+      <li class="lb-accordion__drawers-drawer lb-js-accordion-drawer accordion__drawer">
+        <div class="lb-accordion__drawer-content accordion__drawer-content">
+          <div class="lb-accordion__drawer-head lb-js-accordion-drawer-head accordion__drawer-head"
+              role="button"
+              tabindex="0">
+            <h3 class="accordion__drawer-label">
+              2. Choose who should see your ad
+            </h3>
+            <span class="lb-accordion__drawer-icon"></span>
+          </div>
+          <div class="lb-accordion__drawer-body lb-js-accordion-drawer-body">
+              <p class="accordion__paragraph">
+                Select the locations where you want to show your ad and define the types of people you want to reach.
+              </p>
+          </div>
+        </div>
+      </li>
+      <li class="lb-accordion__drawers-drawer lb-js-accordion-drawer accordion__drawer">
+        <div class="lb-accordion__drawer-content accordion__drawer-content">
+          <div class="lb-accordion__drawer-head lb-js-accordion-drawer-head accordion__drawer-head"
+              role="button"
+              tabindex="0">
+            <h3 class="accordion__drawer-label">
+              3. Choose how much you want to spend
+            </h3>
+            <span class="lb-accordion__drawer-icon"></span>
+          </div>
+          <div class="lb-accordion__drawer-body lb-js-accordion-drawer-body">
+              <p class="accordion__paragraph">
+                Set the budget for your video ad campaign.
+              </p>
+          </div>
+        </div>
+      </li>
+  </ul>
+</section>    </div>
+
+    <div class="main js-creator__content yt-hide">
+<section class="content main__section">
+  <div class="content__branding">
+    <img class="content__yt-icon"
+        src="https://www.gstatic.com/youtube/img/branding/youtubeicon/svg/youtube_main_icon.svg"
+        border="0"
+        alt="YouTube">
+    <span class="content__branding-spacer"></span>
+    <img class="content__adwords-logo"
+      src="/ads/signup/images/ads-logo.svg?cache=a228018"
+ border="0" alt="Google Ads">
+  </div>
+  <h1 class="content__headline">You’ll promote your video using Google Ads</h1>
+  <div class="content__paragraphs">
+      <p class="content__paragraph">
+        Like millions of other creators and businesses, you’ll use the Google Ads platform to run and manage your video as an ad on YouTube. With video ads, you can expand your audience and pay only for views that count.
+      </p>
+      <p class="content__paragraph">
+        You’ll now be redirected to sign in to or create a Google Ads account.
+      </p>
+  </div>
+
+  <div class="content__button-wrapper">
+    <a class="content__button-link yt-js-button"
+        href="https://ads.google.com/signup">
+      <button class="lb-button mdc-button mdc-button--unelevated content__button" data-lb-auto-init="MDCRipple">
+        GET STARTED
+      </button>
+    </a>
+  </div>
+</section>
+<section class="lb-accordion lb-js-accordion accordion main__section accordion-creator" data-lb-auto-init="LBAccordion" data-lb-accordion-options='{"defaultOpen":0}'>
+  <h2 class="accordion__headline">
+    How you’ll set up your ad
+  </h2>
+  <ul class="lb-accordion__drawers lb-js-accordion-drawers">
+      <li class="lb-accordion__drawers-drawer lb-js-accordion-drawer accordion__drawer">
+        <div class="lb-accordion__drawer-content accordion__drawer-content">
+          <div class="lb-accordion__drawer-head lb-js-accordion-drawer-head accordion__drawer-head"
+              role="button"
+              tabindex="0">
+            <h3 class="accordion__drawer-label">
+              1. Choose how your ad will appear
+            </h3>
+            <span class="lb-accordion__drawer-icon"></span>
+          </div>
+          <div class="lb-accordion__drawer-body lb-js-accordion-drawer-body">
+          </div>
+        </div>
+      </li>
+      <li class="lb-accordion__drawers-drawer lb-js-accordion-drawer accordion__drawer">
+        <div class="lb-accordion__drawer-content accordion__drawer-content">
+          <div class="lb-accordion__drawer-head lb-js-accordion-drawer-head accordion__drawer-head"
+              role="button"
+              tabindex="0">
+            <h3 class="accordion__drawer-label">
+              2. Choose your target location
+            </h3>
+            <span class="lb-accordion__drawer-icon"></span>
+          </div>
+          <div class="lb-accordion__drawer-body lb-js-accordion-drawer-body">
+          </div>
+        </div>
+      </li>
+      <li class="lb-accordion__drawers-drawer lb-js-accordion-drawer accordion__drawer">
+        <div class="lb-accordion__drawer-content accordion__drawer-content">
+          <div class="lb-accordion__drawer-head lb-js-accordion-drawer-head accordion__drawer-head"
+              role="button"
+              tabindex="0">
+            <h3 class="accordion__drawer-label">
+              3. Select your target audience
+            </h3>
+            <span class="lb-accordion__drawer-icon"></span>
+          </div>
+          <div class="lb-accordion__drawer-body lb-js-accordion-drawer-body">
+          </div>
+        </div>
+      </li>
+      <li class="lb-accordion__drawers-drawer lb-js-accordion-drawer accordion__drawer">
+        <div class="lb-accordion__drawer-content accordion__drawer-content">
+          <div class="lb-accordion__drawer-head lb-js-accordion-drawer-head accordion__drawer-head"
+              role="button"
+              tabindex="0">
+            <h3 class="accordion__drawer-label">
+              4. Set how much you want to spend
+            </h3>
+            <span class="lb-accordion__drawer-icon"></span>
+          </div>
+          <div class="lb-accordion__drawer-body lb-js-accordion-drawer-body">
+          </div>
+        </div>
+      </li>
+  </ul>
+</section>    </div>
+
+    <script src="/ads/signup/js/index.min.js?cache=577c0b3"></script>
+    <script src="https://ads.google.com/aw/google_ads_prefetch.js?paths=/aw,/aw_video/signup" defer></script>
+  </body>
+</html>
